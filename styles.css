@@ -1,0 +1,307 @@
+/* Estilos generales */
+body {
+  
+ 
+  background-color:peru;
+    
+   
+  font-family: Arial, sans-serif;
+    
+   
+  margin: 0;
+    
+   
+  padding: 0;
+  }
+  
+  /* Estilos para encabezados h1, h2 y h3 */
+  h1, h2, h3 {
+    
+   
+  text-align: center;
+    
+   
+  font-family: helvetica;
+  }
+  
+  h1 {
+    
+   
+  color: deeppink;
+    
+   
+  background-color: black;
+    
+   
+  font-size: 60px;
+  }
+  
+  
+  
+  
+  h
+  h2 {
+    
+   
+  color: deeppink;
+    background-color: black;
+    
+   
+  font-size: 30px;
+  }
+  
+  h3 {
+    
+   
+  color: deeppink;
+    
+   
+  background-color:orange;
+    
+   
+  font-size: 20px;
+  }
+  
+  /* Estilos para párrafos */
+  p {
+    
+   
+  color: black;
+    
+   
+  text-align: center;
+    
+   
+  background-color: orange;
+    
+   
+  font-family: arial;
+    
+   
+  font-size: 20px;
+  }
+  
+  /* Estilos para contenedores */
+  .container {
+    
+   
+  max-width: 1200px;
+    
+   
+  margin: auto;
+    
+   
+  padding: 20px;
+  }
+  
+  /* Estilos para la sección de servicios */
+  .services-container {
+    display: grid;
+    
+   
+  grid-template-columns: repeat(3, 1fr);
+    
+   
+  grid-gap: 20px;
+    
+   
+  margin-top: 30px;
+  }
+  
+  .service {
+    
+   
+  text-align: center;
+    
+   
+  padding: 20px;
+    
+   
+  border: 1px solid #ddd;
+    
+   
+  border-radius: 5px;
+  }
+  
+  .service img {
+    
+   
+  width: 200px;
+    
+   
+  height: 200px;
+    
+   
+  border-radius: 50%;
+    
+   
+  margin-bottom: 10px;
+  }
+  
+  .service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    
+   
+  background-color: #333;
+    
+   
+  color: white;
+    
+   
+  padding: 20px;
+    
+   
+  text-align: center;
+  }
+  
+  .footer button {
+    
+   
+  background-color: #4CAF50;
+    color: white;
+    
+   
+  border: none;
+    
+   
+  padding: 10px 20px;
+    
+   
+  border-radius: 5px;
+    
+   
+  cursor: pointer;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .container-nav {
+    display: flex;
+    
+   
+  padding: 10px;
+    
+   
+  height: 50px;
+    
+   
+  background-color: black;
+  }
+  
+  .navbar {
+    
+   
+  display: flex;
+    
+   
+  justify-content: space-between;
+    
+   
+  width: 100%;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  li > a {
+    
+   
+  padding: 8px 24px;
+    color: pink;
+    
+    text
+  
+   
+  text-decoration: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-menu-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    
+    }
+  
+  .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border: none;
+      
+     
+  border-radius: 50px;
+      
+     
+  padding: 0 24px;
+      font-family: monospace;
+      
+     
+  font-weight: bold;
+      
+     
+  font-size: 20px;
+    }
+  
+    
+    
+  
+   
+  
+    
+  
+  .nav-links.nav-links-responsive {
+      
+     
+  position: absolute;
+      
+     
+  display: flex;
+      background-color: rgba(20, 20, 20, 0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap: 70px;
+      
+     
+  font-size: 40px;
+    }
+  
+  
+
+    
+  .acerca {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
